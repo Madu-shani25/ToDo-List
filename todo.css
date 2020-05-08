@@ -1,0 +1,28 @@
+body{
+    background:green;
+}
+
+.container{
+    max-width:450px;
+}
+input[type=text],
+input[type=text]:focus{
+    color:whitesmoke;
+    border:none;
+    background:black;
+    max-width:450px;
+
+}
+
+.todos li{
+    background: chartreuse;
+
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display:none !important;
+}
